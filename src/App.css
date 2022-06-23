@@ -39,3 +39,9 @@
 .n-wrapper{
   width: 1160px;
 }
+
+
+/* utilities/helper classes */
+.btn-custom {
+  background-color: red !important;
+}

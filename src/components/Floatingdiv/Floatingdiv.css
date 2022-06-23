@@ -1,0 +1,17 @@
+.floatingdiv {
+    justify-content: space-around;
+    display: flex;
+    background: rgb(247, 245, 245);
+    box-shadow: 1px 16px 14px #ff88005f; 
+    border-radius: 17px;
+    padding-left: 20px;
+}
+span{
+    font-size: 14px;
+    margin-top: 9px;
+    padding-right: 10px;
+}
+.floatingdiv img{
+    height: 65px;
+    padding: 10px 20px;
+}

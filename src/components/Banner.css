@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#banner{
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.container .title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.container .name{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFA411;
+}
+.container .title_text{
+    font-size: 14px;
+}
+.container .banner-button{
+    background-image: linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    border: 2px solid linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    color: white;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    margin-top: 11px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-bottom: 100px;
+    border: none;
+    box-shadow: 1px 16px 14px #ff88005f;
+    transition: all linear 0.4s;
+}
+.container .banner-button:hover{
+    background: white;
+    border: 1px solid #ffba00;
+    color: #ffba00;
+    
+}
+
+/* icon part css */
+#banner .container .icon .banner-icon i{
+    padding-right: 30px;
+    font-size: 40px;
+    color: #ffba00;
+}
+
+/* banner image part start */
+#banner .banner-img{
+    flex: 1;
+    position: relative;
+}
+#banner .banner-img>*{
+    position: absolute;
+}
+#banner .banner-img:nth-child{
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+#banner .banner-img .img-one{
+    height: 250px;
+    padding-left: 45px;
+}
+#banner .banner-img .img-two{
+    height: 350px;
+    padding-left: 45px;
+}
+/* #banner .banner-img .img-three{
+    position: relative;
+} */
+#banner .banner-img .img-three{
+    position: absolute;
+    left: 9%;
+    bottom: -370px; 
+    padding-left: 40px; 
+}
+#banner .banner-img .gimoji{
+    height: 100px;
+    margin: -45px;
+}
+
+
+
+
+
+
+/* banner image part End */

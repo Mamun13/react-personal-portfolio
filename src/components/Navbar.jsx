@@ -35,7 +35,6 @@ const Navbar=() => {
                     <li class="nav-item">
                       <a class="nav-link last-child" href="#">contact</a>
                     </li>
-                    
                   </ul>
                 </div>
               </div>
