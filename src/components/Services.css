@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#services{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#services .services-text{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#services .services-text span{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #FFA411;
+}
+ #services .serv-text{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(125, 124, 124);
+    padding-bottom: 40px;
+ }
+ #services .services-button{
+    background-image: linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    border: 2px solid linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    color: white;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    margin-top: 11px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-bottom: 100px;
+    border: none;
+    box-shadow: 1px 16px 14px #ff88005f;
+    transition: all linear 0.4s;
+}
+#services .services-button:hover{
+    background: white;
+    border: 1px solid #ffba00;
+    color: #ffba00;
+}
+#services .bg-full{
+    background: red;
+}
+#services .step-one{
+    position: relative;
+    background: #f7f7f7;
+    width: 220px;
+    height: 260px;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-top: 200px;
+    border-radius: 20px;
+    border: 5px solid #E4C28D;
+    box-shadow: 1px 16px 14px #ff88005f; 
+}
+#services .step-one{
+    /* position: absolute; */
+    left: -10%;
+    top: 10%;
+}
+#services .step-one img{
+    height: 60px;
+    margin-top: 35px;
+}
+#services .step-one .skills{
+    font-size: 14px;
+    color: rgb(125, 124, 124);
+}
+#services .step-one .link{
+    margin-bottom:100px;
+}
+#services .step-one .link{
+    font-size: 14px;
+    /* font-family: sans-serif; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+#services .step-one .link:hover{
+    background: white;
+    box-shadow: 1px 16px 14px #5c5b5b5f; 
+}
+
+#services .step-two .upper-one{
+    background: #f7f7f7;
+    width: 220px;
+    height: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 60px;
+    border-radius: 20px;
+    border: 5px solid #E4C28D;
+    box-shadow: 1px 16px 14px #ff88005f; 
+}
+#services .step-two .upper-one img{
+    height: 60px;
+    margin-top: 35px;
+}
+#services .step-two .upper-one .skills{
+    font-size: 14px;
+    color: rgb(125, 124, 124);
+}
+#services .step-two .upper-one .link{
+    font-size: 14px;
+    /* font-family: sans-serif; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 10px;
+     transition: all linear 0.3s;
+}
+#services .step-two .upper-one .link:hover{
+    background: white;
+    box-shadow: 1px 16px 14px #5c5b5b5f; 
+}
+
+#services .step-two .lower-one{
+    position: relative;
+    background: #f7f7f7;
+    width: 220px;
+    height: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 60px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 5px solid #E4C28D;
+    box-shadow: 1px 16px 14px #ff88005f; 
+}
+#services .step-two .lower-one{
+    left: -13%;
+}
+#services .step-two .lower-one img{
+    height: 60px;
+    margin-top: 35px;
+}
+#services .step-two .lower-one .skills{
+    font-size: 14px;
+    color: rgb(125, 124, 124);
+}
+#services .step-two .lower-one .link{
+    font-size: 14px;
+    /* font-family: sans-serif; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 10px;
+     transition: all linear 0.3s;
+}
+#services .step-two .lower-one .link:hover{
+    background: white;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+

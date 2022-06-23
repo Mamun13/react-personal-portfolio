@@ -29,9 +29,8 @@ function Banner() {
                   <img src={Vector1} className="img-one "/>
                   <img src={Vector2} className="img-two " />  
                   <img src={Boy} className="img-three " />  
-                  <img src={Glassesimoji} className="gimoji"/>  
-                  
-                  <div style={{top:'-8%', left:'55%'}}>
+                  <img src={Glassesimoji} className="gimoji"/> 
+                  <div style={{top:'-10%', left:'55%'}}>
                     <FloatingDiv image={Crown} txt1="Web"  txt2="Developer"  />
                   </div>
                   <div style={{top:'14.1rem', left:'0rem'}}>
