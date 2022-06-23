@@ -56,6 +56,10 @@
     border-radius: 20px;
     border: 5px solid #E4C28D;
     box-shadow: 1px 16px 14px #ff88005f; 
+    transition: all linear 0.3s;
+}
+#services .step-one:hover{
+    box-shadow: 1px 10px 14px #20dfe28e; 
 }
 #services .step-one{
     /* position: absolute; */
@@ -97,6 +101,10 @@
     border-radius: 20px;
     border: 5px solid #E4C28D;
     box-shadow: 1px 16px 14px #ff88005f; 
+    transition: all linear 0.3s;
+}
+#services .step-two .upper-one:hover{
+    box-shadow: 1px 10px 14px #20dfe28e; 
 }
 #services .step-two .upper-one img{
     height: 60px;
@@ -132,6 +140,10 @@
     border-radius: 20px;
     border: 5px solid #E4C28D;
     box-shadow: 1px 16px 14px #ff88005f; 
+    transition: all linear 0.3s;
+}
+#services .step-two .lower-one:hover{
+    box-shadow: 1px 10px 14px #20dfe28e; 
 }
 #services .step-two .lower-one{
     left: -13%;
