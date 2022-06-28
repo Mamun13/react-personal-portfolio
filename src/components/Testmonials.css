@@ -15,3 +15,7 @@
     font-weight: 600;
     color: #ffba00;
 }
+#testmonials .swiper .img1{
+    height: 50px;
+    border-radius: 50%;
+}

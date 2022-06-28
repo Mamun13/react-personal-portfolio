@@ -3,8 +3,44 @@ import "./Testmonials.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import Profile1 from "../img/profile1.jpg";
+import Profile2 from "../img/profile2.jpg";
+import Profile3 from "../img/profile3.jpg";
+import Profile4 from "../img/profile4.jpg";
+import Profile5 from "../img/profile5.jpg";
+import Profile6 from "../img/profile6.jpg";
+
+
 
 function Testmoninals() {
+  const clients=[
+    {
+      img: Profile1,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+    {
+      img: Profile2,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+    {
+      img: Profile3,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+    {
+      img: Profile4,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+    {
+      img: Profile5,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+    {
+      img: Profile6,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad officiis ipsa fugit suscipit, numquam libero asperioresvoluptatibus eos error, sed possimus doloribus assumenda, perspiciatis deserunt? Enim possimus error cumque!"
+    },
+  ]
+
+
+
   return (
     <section id='testmonials'>
       <div className="container">
@@ -12,13 +48,19 @@ function Testmoninals() {
             <div className="col-lg-12 ">
                 <h4 className='text mb-5'>clients always get<span> exceptional work</span>from me... </h4>
             </div>
-            <div className="row">
+            <div className="row"> 
                 <Swiper>
-                    <SwiperSlide>
-                        <img src={Profile1} className="img-fluid img1" alt="" />
-                    </SwiperSlide>
+                  {clients.map((client,index)=>{
+                    return(
+                      <SwiperSlide key={index}>
+                        <img src={client.img} alt="" />
+                        <span>{client.review}</span>
+                      </SwiperSlide>
+                    );
+                  })}
+                    
                 </Swiper>
-            </div>
+             </div>
         </div>
       </div>
   </section>
