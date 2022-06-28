@@ -1,13 +1,16 @@
 import React from 'react';
 import "./Testmonials.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css";
+
 import Profile1 from "../img/profile1.jpg";
 import Profile2 from "../img/profile2.jpg";
 import Profile3 from "../img/profile3.jpg";
 import Profile4 from "../img/profile4.jpg";
 import Profile5 from "../img/profile5.jpg";
 import Profile6 from "../img/profile6.jpg";
+import { Pagination } from "swiper";
+import 'swiper/css/pagination';
+import "swiper/css";
 
 
 
@@ -49,11 +52,15 @@ function Testmoninals() {
                 <h4 className='text mb-5'>clients always get<span> exceptional work</span>from me... </h4>
             </div>
             <div className="row"> 
-                <Swiper>
+                <Swiper
+                modules={(Pagination)}
+                slidesPerView={1}
+                pagination={{Clickable: true}}
+                >
                   {clients.map((client,index)=>{
                     return(
                       <SwiperSlide key={index}>
-                        <img src={client.img} alt="" />
+                        <img src={client.img} alt="" /><br/>
                         <span>{client.review}</span>
                       </SwiperSlide>
                     );
