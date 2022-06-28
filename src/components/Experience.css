@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 360px;
+}
+ul li{
+    float: left;
+    padding-right: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#experience .work{
+    float: right ;
+}
+#experience .work p{
+    float: right; 
+    font-size: 16px;
+    border-radius: 50%;
+    padding-left: 4px;
+}
+#experience .work p span{
+    border: 4px solid #ffc05c;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+#experience .work-des{
+    float: right;
+}
+#experience .middle p{
+    font-size: 16px;
+}
+#experience .middle p span{
+    font-size: 20px;
+    border: 4px solid #ffc05c;
+    border-radius: 50%;
+    padding: 16px 10px;
+}
+#experience .last p{
+    font-size: 16px;
+}
+#experience .last p span{
+    font-size: 20px;
+    border: 4px solid #ffc05c;
+    border-radius: 50%;
+    padding: 16px 17px;
+}

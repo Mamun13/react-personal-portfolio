@@ -21,13 +21,13 @@ const Navbar=() => {
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">services</a>
+                      <a class="nav-link" href="#services">services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">experience</a>
+                      <a class="nav-link" href="#experience">experience</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">portfolio</a>
+                      <a class="nav-link" href="#projects">portfolio</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">textmonial</a>

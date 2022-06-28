@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#projects .text{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#projects .text span{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #ffba00;
+    font-weight: 600;
+}
+#projects .color{
+    background: red;
+}
+#projects .b-radious .swiper{
+    overflow: visible!important;
+}
+#projects .b-radious .swiper img{
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.55));
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+/* #projects .b-radious img{
+    border-radius: 15px;
+    margin-bottom: 40px;
+    
+} */
+

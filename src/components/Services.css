@@ -163,12 +163,13 @@
     font-weight: 500;
     padding: 5px 10px;
     border-radius: 10px;
-     transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 #services .step-two .lower-one .link:hover{
     background: white;
+    box-shadow: 1px 16px 14px #5c5b5b5f;
 }
-   
+
 
 
 

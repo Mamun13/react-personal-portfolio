@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#Market{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+#Market .title{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#Market .name{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFA411;
+}
+#Market .title_text{
+    font-size: 14px;
+}
+#Market .banner-button{
+    background-image: linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    border: 2px solid linear-gradient(to top, #ffba00, #fdc900, #fad800, #f5e800, #eef705);
+    color: white;
+    text-transform: capitalize;
+    padding: 4px 30px;
+    margin-top: 11px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-bottom: 100px;
+    border: none;
+    box-shadow: 1px 16px 14px #ff88005f;
+    transition: all linear 0.4s;
+}
+.container .banner-button:hover{
+    background: white;
+    border: 1px solid #ffba00;
+    color: #ffba00;
+    
+}
+
+
+

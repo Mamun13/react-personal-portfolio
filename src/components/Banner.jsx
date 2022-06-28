@@ -6,7 +6,7 @@ import Vector1 from "../img/Vector1.png";
 import Vector2 from "../img/Vector2.png";
 import Crown from "../img/crown.png";
 import Thumbup from "../img/thumbup.png";
-import Glassesimoji from "../img/glassesimoji.png";
+import Glassesimoji from "../img/glassesimoji.png";   
 import FloatingDiv from './Floatingdiv/FloatingDiv';
 
 
@@ -17,7 +17,7 @@ function Banner() {
           <div className="row">
               <div className="col-lg-6 p-0 icon">
                 <h1 className='title'>hy! I am<br /><span className='name'>andrew thomas</span></h1>
-                <p className='title_text'>Frontend Developer with high levelof experience in web designing and development,<br />producing the Quality work.</p>
+                <p className='title_text'>Frontend Developer with high level of experience in web designing and development,<br />producing the Quality work.</p>
                 <button href="#" className='banner-button'>hire me</button><br />
                 <a href="#" className='banner-icon'><i class="fa-brands fa-github"></i></a>
                 <a href="#" className='banner-icon'><i class="fa-brands fa-linkedin-in"></i></a>
