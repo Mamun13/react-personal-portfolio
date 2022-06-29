@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#form .detail .name{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 347px;
+    border-radius: 10px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    border: 1px solid #FFA411;
+    font-weight: 300;
+}
+#form .detail .email{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 347px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #FFA411;
+}
+#form .detail .textarea{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-top: 15px;
+    border-radius: 10px;
+    border-color: red;
+}
+textarea#exampleFormControlTextarea1{
+    border-color: #FF872E;
+}
+#form .detail .submit{
+    background: #FF872E;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: all linear 0.3s;
+}
+#form .detail .submit:hover{
+    color: #000;
+}
+#form .detail textarea{
+    padding-top: 15px;
+    padding-left: 40px;
+}

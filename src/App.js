@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Market from './components/Market';
 import Projects from './components/Projects';
 import Testmoninals from './components/Testmonials';
+import Form from './components/Form';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Market />
       <Projects />
       <Testmoninals />
+      <Form />
       {/* <section id="portfolio" className='py-5'>
         <div className="container">
           <div className="section-header text-center">

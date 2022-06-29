@@ -34,7 +34,7 @@ const Navbar=() => {
                       <a class="nav-link" href="#">textmonial</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link last-child" href="#">contact</a>
+                      <a class="nav-link last-child" href="#form">contact</a>
                     </li>
                   </ul>
                 </div>
