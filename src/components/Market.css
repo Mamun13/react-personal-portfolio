@@ -32,12 +32,26 @@
     box-shadow: 1px 16px 14px #ff88005f;
     transition: all linear 0.4s;
 }
-.container .banner-button:hover{
+#Market .banner-button:hover{
     background: white;
     border: 1px solid #ffba00;
     color: #ffba00;
     
 }
-
-
-
+#Market .market{
+    /* background: red;   */
+    /* position: absolute;
+    display: flex; */
+    /* z-index: 1; */
+}
+#Market .market img{
+    margin-top: -50px;
+}
+#Market .market .first{
+    position: absolute;
+}
+#Market .market .second{
+    height: 500px;
+    margin-left: 166px;
+    padding-top: 81px;
+}
