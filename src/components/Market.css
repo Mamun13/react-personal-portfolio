@@ -38,18 +38,31 @@
     color: #ffba00;
     
 }
-#Market .market{
-    /* background: red;   */
-    /* position: absolute;
-    display: flex; */
-    /* z-index: 1; */
-}
+
 #Market .market img{
     margin-top: -50px;
 }
 #Market .market .first{
     position: absolute;
+    /* transition: all linear .7s; */
+    -webkit-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
 }
+#Market .market .first:hover{
+    /* transform: rotate(-90deg); */
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
 #Market .market .second{
     height: 500px;
     margin-left: 166px;

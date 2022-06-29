@@ -12,8 +12,6 @@ import { Pagination } from "swiper";
 import 'swiper/css/pagination';
 import "swiper/css";
 
-
-
 function Testmoninals() {
   const clients=[
     {
@@ -51,20 +49,20 @@ function Testmoninals() {
             <div className="col-lg-12 ">
                 <h4 className='text mb-5'>clients always get<span> exceptional work</span>from me... </h4>
             </div>
-            <div className="row"> 
+            <div className="row pagination text-center"> 
                 <Swiper
-                modules={(Pagination)}
-                slidesPerView={1}
-                pagination={{Clickable: true}}
-                >
-                  {clients.map((client,index)=>{
-                    return(
-                      <SwiperSlide key={index}>
-                        <img src={client.img} alt="" /><br/>
-                        <span>{client.review}</span>
-                      </SwiperSlide>
-                    );
-                  })}
+                  modules={(Pagination)}
+                  slidesPerView={1}
+                  pagination={{Clickable: true}}
+                  >
+                    {clients.map((client,index)=>{
+                      return(
+                        <SwiperSlide key={index}>
+                          <img src={client.img} alt="" /><br/>
+                          <span>{client.review}</span>
+                        </SwiperSlide>
+                      );
+                    })}
                     
                 </Swiper>
              </div>

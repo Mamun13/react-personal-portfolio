@@ -4,6 +4,7 @@
 }
 #testmonials{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 #testmonials h4{
     text-transform: capitalize;
@@ -15,7 +16,22 @@
     font-weight: 600;
     color: #ffba00;
 }
-#testmonials .swiper .img1{
-    height: 50px;
+
+#testmonials .swiper img{
+    height: 170px;
     border-radius: 50%;
+    margin-top: 30px;
 }
+#testmonials .swiper .review{
+    margin-bottom: 30px;
+}
+#testmonials .pagination{
+    width: 50%;
+    margin-left: 26%;
+    background: rgb(221, 221, 221);
+    border: 3px solid rgb(86, 204, 243);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #3232315f;
+}
+
+

@@ -8,8 +8,9 @@ const Navbar=() => {
     <header>
       <section id='' className=''>
         <div className="container">
-          <div className="row p-0">
-          <nav class="navbar navbar-expand-lg navbar-light bg-red  p-0">
+          <div className="row">
+            <div className="col-lg-12 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-red  p-0">
               <div class="container-fluid p-0">
                 <a class="navbar-brand" href="#">Andrew</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +40,7 @@ const Navbar=() => {
                 </div>
               </div>
             </nav>
+            </div>
           </div>
         </div>
       </section>
