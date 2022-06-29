@@ -17,8 +17,10 @@ function Market() {
                 <a href="#" className='banner-icon'><i class="fa-brands fa-instagram"></i></a> */}
           </div>
           <div className="col-lg-6 p-0 market">
-            <img src={Marketp} className="img-fluid first" alt="" />
-            <img src={Mproject} className="img-fluid second" alt="" />
+            <div className="overflow-hidden position-relative">
+              <img src={Marketp} className="img-fluid first" alt="" />
+              <img src={Mproject} className="img-fluid second" alt="" />
+            </div>
           </div>
         </div>
       </div>

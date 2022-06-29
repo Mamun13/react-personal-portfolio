@@ -39,7 +39,6 @@ function Projects() {
                         <img src={Ecommerce} className="img-fluid" alt="" />
                     </SwiperSlide>
                 </Swiper>
-                
             </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Navbar=() => {
       <section id='' className=''>
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 p-0">
+            <div className="col-lg-12 col-md-12 p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-red  p-0">
               <div class="container-fluid p-0">
                 <a class="navbar-brand" href="#">Andrew</a>
